@@ -1,4 +1,7 @@
-import streamlit
-streamlit.title('READY TO START')
-streamlit.header('Snowflake Training')
-streamlit.text('Badge 2 and Badge 3')
+streamlit.title('My Parents New Healthy Diner')
+streamlit.header('Breakfast Menu')
+streamlit.text('Omega 3 & Blueberry Oatmeal')
+streamlit.text('Kale, Spinach & Rocket Smoothie')
+streamlit.text('Hard-Boiled Free-Range Egg')
+                
+            
