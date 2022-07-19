@@ -1,2 +1,2 @@
 import streamlit
-stremlit.title('READY TO START')
+stremlit.title("READY TO START")
