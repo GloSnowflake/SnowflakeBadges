@@ -33,7 +33,7 @@ streamlit.dataframe(fruityvice_normalized)
 
 #don't run anything past here while we troubleshoot
 streamlit.stop()
-
+from urllib.error import URLError
 
 #import snowflake.connector
 
@@ -52,4 +52,4 @@ add_my_fruit = streamlit.text_input('What fruit would you like to add?','jackfru
 streamlit.write('Thanks for adding ', add_my_fruit)
 my_cur.execute("insert into fruit_load_list values('from streamlit')")
 
-from urllib.error import URLError
+
